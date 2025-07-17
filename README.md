@@ -16,16 +16,13 @@
 
 ## 🛠️ Teknologi
 
-- [Laravel 11.x](https://laravel.com/)
+- [Laravel 12^](https://laravel.com/)
 - [Filament Admin Panel](https://filamentphp.com/)
-- Tailwind CSS, Alpine.js
-- Chart.js / ApexCharts untuk visualisasi data
-
 ---
 
 ## ⚙️ Cara Instalasi
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan CATETIN secara lokal:
+Ikuti langkah-langkah di bawah ini untuk menjalankan CATETIN :
 
 ### 1. Clone Repository
 
@@ -61,6 +58,8 @@ php artisan migrate
 ```
 ```bash
 php artisan tinker
+```
+```bash
 >>> \App\Models\User::create([
     'name' => 'Admin',
     'email' => 'admin@example.com',
